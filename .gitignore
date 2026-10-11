@@ -1,0 +1,22 @@
+# 编译产物
+*.o
+*.obj
+*.pdb
+life
+life-serial
+life-asan
+life-tsan
+
+# 提交打包（按需重新生成：make submit）
+*.tar.gz
+*.zip
+
+# 程序输出
+serial_*.txt
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

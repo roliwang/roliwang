@@ -1,0 +1,9 @@
+# 统一使用 LF 行尾（目标运行平台为 Linux，避免 CRLF 混入源码与输入数据）
+* text=auto eol=lf
+
+# 输入数据按字节精确保存，不做任何行尾转换
+*.txt -text
+基础题-样例代码/LifeGame/origin/input/* -text
+
+#  Shell 脚本保持可执行位
+*.sh text eol=lf
